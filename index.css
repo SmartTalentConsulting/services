@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 
 :root {
-    --hue-color: 242;
+    --hue-color: 174;
 
-    --skin-color: hsl(342, 92%, 46%);
+    /* --skin-color: hsl(342, 92%, 46%); */
+    --skin-color: hsl(174, 100%, 50%);
     --mirage-color: hsl(210, 10%, 23%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 85%);
@@ -69,7 +70,7 @@ button { cursor: pointer; }
     align-items: center; 
     column-gap: .5rem; 
     background-color: var(--skin-color); 
-    color: var(--title-color); 
+    color: #000; 
     padding: 0.75rem 1.4rem; 
     border-radius: .25rem; 
     font-weight: var(--font-medium);
@@ -146,7 +147,7 @@ button { cursor: pointer; }
 
 .main { margin-left: 100px; }
 /* 'https://i.postimg.cc/wjLKRG88/home-bg.png */
-.home { background: url('https://i.postimg.cc/4NVpzmcY/bg-home.png'); background-size: cover; background-position: center center; height: 100vh;opacity:0.8}
+.home { background: url('../services/images/home-bg.png'); background-size: cover; background-position: center center; height: 100vh;opacity:0.8}
 .home-container { position: relative; height: 100%; align-items: center; }
 .home-social { position: absolute; top: 1.8rem; left: 0; display: flex; align-items: center; column-gap: 3.5rem; }
 .home-social-follow { font-weight: var(--font-medium); position: relative; }
