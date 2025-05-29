@@ -144,7 +144,7 @@ button { cursor: pointer; }
 .social-share { font-size: 1.5rem; }
 
 /* Main - Home */
-
+.logo-main{width:300px}
 .main { margin-left: 100px; }
 /* 'https://i.postimg.cc/wjLKRG88/home-bg.png */
 .home { background: url('https://i.postimg.cc/d0Zg3whm/home-gb.png'); background-size: cover; background-position: center center; height: 100vh;opacity:0.8}
