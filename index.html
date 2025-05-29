@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-text">ST</a>
+            </div>
+
+            <div class="nav-menu">
+                <div class="menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">Servicios</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Inversion  </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn-share">
+                <i class="uil uil-share-alt social-share"></i>
+            </div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <div class="home-social">
+                    <span class="home-social-follow">Sigueme</span>
+                    <div class="home-social-links">
+                        <a href="https://www.linkedin.com/in/toni-montes-9913b717/" target="_blank" class="home-social-link">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://wa.me/525519490272?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" class="home-social-link">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+
+                        <!-- <a href="https://www.instagram.com" target="_blank" class="home-social-link">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.x.com" target="_blank" class="home-social-link">
+                            <i class="uil uil-twitter"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <img src="https://i.postimg.cc/d3ML1j44/2148499447-1.png" alt="" class="home-img">
+
+            <div class="home-data">
+                <h1 class="home-title">Smart Talent Consulting</h1>
+                <h3 class="home-subtitle">HEADHUNTING Boutique</h3>
+                <p class="home-description">Expertos en identificar el talento ideal para potenciar el crecimiento de tu empresa.
+                  </p>
+
+                <a href="#about" class="button">
+                    <i class="uil uil-user button-icon"></i>
+                    Saber Más
+                </a>
+            </div>
+
+            <div class="my-info">
+                <div class="info-item">
+                    <i class="uil uil-linkedin info-icon"></i>
+
+                    <div>
+                        <h3 class="info-title">Linkedin</h3>
+                        <span class="info-subtitle">
+                            <a href="https://www.linkedin.com/in/toni-montes-9913b717/" target="_blank" class="home-social-link">
+                                Toni Montes
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="uil uil-whatsapp info-icon"></i>
+
+                    <div>
+                        <a href="https://wa.me/525519490272?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" class="home-social-link">
+                        <h3 class="info-title">
+                            Whatsapp
+                        </h3>
+                        <span class="info-subtitle"> <a href="https://wa.me/525519490272?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" class="home-social-link">
+                            55 1949 0272
+                        </a>
+                    </span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="uil uil-envelope-edit info-icon"></i>
+
+                    <div>
+                        <h3 class="info-title">Email</h3>
+                        <span class="info-subtitle">toni.montes@smart-talent.mx                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title" data-heading="Nosotros">¿Quienes somos?</h2>
+
+            <div class="about-container container grid">
+                <img src="https://i.postimg.cc/W1S8LRs1/Imagen-1.png" alt="" class="about-img">
+
+                <div class="about-data">
+                    <!-- <h3 class="about-heading">Hola, Soy Tony Montes, Vivo en Ciudad México</h3> -->
+                    <p class="about-description">Somos una firma de Headhunting Boutique especializada en encontrar a los profesionales más calificados en Perfiles Técnicos, Personal Administrativo de Alto Nivel y de de Confianza, Mandos Medios, y Alta Dirección.
+                        <br> <br>
+                    Nuestra Experiencia Profesional de más de 15 años, ofrece a nuestros Clientes las Soluciones del Talento Clave para impulsar el crecimiento y éxito de su empresa.
+                    <br><br>
+                    Ayudamos a nuestros Clientes a Resolver sus Necesidades  de  Talento  Estratégico de los Perfiles más Desafiantes.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="about-box">
+                            <i class="uil uil-award about-icon"></i>
+                            <h3 class="about-title">Experiencia</h3>
+                            <span class="about-subtitle">15 + Años</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>Contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="qualification section">
+            <h2 class="section-title industry" data-heading="Industrias">Nos especializamos en identificar y reclutar talento clave para sectores estratégicos como:</h2>
+
+            <div class="qualification-container container grid">
+                <div class="education">
+                    <h3 class="qualification-title"><i class="uil uil-graduation-cap"></i>Education</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">XYZ University (Sometown, NJ)</h3>
+                            <p class="timeline-text">BFA in Graphic Design</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2011 - 2013</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">ABC University (Sometown. NJ)</h3>
+                            <p class="timeline-text">Diploma in Web Design</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2013 - 2015</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">KLM University (Sometown, NJ)</h3>
+                            <p class="timeline-text">BS in Web Development</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2015 - 2017</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <h3 class="qualification-title"><i class="uil uil-suitcase"></i>Experience</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Copalopa Inc. (Sometown, NJ)</h3>
+                            <p class="timeline-text">Lead / Senior UX Designer</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2018 - Present</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Gabogle Inc. (Somwtown, NJ)</h3>
+                            <p class="timeline-text">Web site / UX Designer</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2015 - 2018</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Copalopa Inc. (Sometown, NJ)</h3>
+                            <p class="timeline-text">Junior UX Designer</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2013 - 2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="skills section" id="skills">
+            <h2 class="section-title" data-heading="My Abilities">My Experience</h2>
+
+            <div class="skills-container container grid">
+                <div class="skills-tabs">
+                    <div class="skills-header skills-active" data-target="#frontend">
+                        <i class="uil uil-brackets-curly skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Frontend Developer</h1>
+                            <span class="skills-subtitle">More than 4 years</span>
+                            
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#design">
+                        <i class="uil uil-swatchbook skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">UI / UX Design</h1>
+                            <span class="skills-subtitle">More than 5 years</span>
+                            
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#backend">
+                        <i class="uil uil-server-network skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Backend Developer</h1>
+                            <span class="skills-subtitle">More than 2 years</span>
+
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-group skills-active" data-content id="frontend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Javascript</h3>
+                                    <span class="skills-number">60%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="design">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Figma</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Sketch</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PhotoShop</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="backend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PHP</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MySQL</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Firebase</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 75%;"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="work section" id="work">
+            <h2 class="section-title" data-heading="Servicios">Buscamos y conectamos talento especializado en las siguientes industrias:
+            </h2>
+
+            <!-- <div class="work-filters">
+                <span class="work-item active-work" data-filter="all">All</span>
+                <span class="work-item" data-filter=".web">Web</span>
+                <span class="work-item" data-filter=".app">App</span>
+                <span class="work-item" data-filter=".design">Design</span>
+            </div> -->
+
+            <div class="work-container container grid">
+                <div class="work-card mix web">
+
+                    <img src="https://i.postimg.cc/QNB1jXYZ/work-3.png" alt="" class="work-img">
+                    <h3 class="work-title">Tecnología</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Perfiles Tecnológicos que Reclutamos</h3>
+                        <!-- <p class="details-description">Two smartphones displaying a sleek, dark-themed dashboard interface</p> -->
+                        <ol class="details-info">
+                            <li>Consultores Funcionales y Técnicos en ERP/CRM
+                                (Oracle, SAP, Salesforce, Dynamics, PeopleSoft, NetSuite, Odoo, JD Edwards)</li>
+                            <li>Desarrolladores Backend & Frontend
+                                (Java, .NET, Python, PHP, SQL, CSS, MuleSoft)</li>
+                            <li>Especialistas en Ciberseguridad</li>
+                            <li>Ingenieros DevOps</li>
+                            <li>Administradores de Redes y Telecomunicaciones</li>
+                            <li>Ingenieros de Software</li>
+                            <li>Gerentes de Tecnología (TI)</li>
+                            <!-- <li>View - <span><a href="#">www.domain.com</a></span></li> -->
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="work-card mix app">
+                    <img src="https://i.postimg.cc/50rVwgLW/finance.png" alt="" class="work-img">
+                    <h3 class="work-title">Finanzas Y administración</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Finanzas Y administración</h3>
+                        <!-- <p class="details-description">A stylish burger restaurant mobile app interface displayed on two smartphones</p> -->
+                        <ol class="details-info">
+                            <li>Dirección General</li></li>
+                            <li>Director de Finanzas (CFO)</li>
+                            <li>Contraloría</li>
+                            <li>Tesorería</li>
+                            <li>Contabilidad y Fiscal</li>
+                            <li>Finanzas</li>
+                            <li>Recursos Humanos</li>
+                            <li>Área Comercial, Desarrollo de Negocios</li>
+                            <li>Compras</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <div class="work-card mix design">
+                    <img src="https://i.postimg.cc/nrNbjGgS/marketing.png" alt="" class="work-img">
+                    <h3 class="work-title">Marketing</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Marketing</h3>
+                        <!-- <p class="details-description">Three smartphone screens displaying a beautifully designed travel booking application interface</p> -->
+                        <ol class="details-info">
+                            <li>Director de Marketing</li>
+                            <li>Diseñador WEB</li>
+                            <li>Growth Manager</li>
+                            <li>Account Manager</li>
+                            <li>Community Manager</li>
+                            <li>Content Manager</li>
+                            <li>Director Creativa</li>
+                            <li>Especialista en Publicidad Digital</li>
+                            <li>Email Marketing Manager</li>
+                            <li>SEO/SEM Specialist</li>
+                            <li>UX/UI Designer (Diseñador de Experiencia
+                              y Usuario e Interfaz)</li>
+                        </ol>                        
+                    </div>
+                </div>
+
+                <div class="work-card mix app">
+                    <img src="https://i.postimg.cc/JnPZJJSj/energy.png" alt="" class="work-img">
+                    <h3 class="work-title">Energía</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Energía</h3>
+                        <!-- <p class="details-description">Modern workout website interface design featuring a bold and energetic visual layout</p> -->
+                        <ul class="details-info">
+                            <!-- <li>Created - <span>4 Apr 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work-card mix web">
+                    <img src="https://i.postimg.cc/VN6pyB1V/construction.png" alt="" class="work-img">
+                    <h3 class="work-title">Construcción</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Construcción</h3>
+                        <!-- <p class="details-description">An app design that is clean, functional, and ideal for gamers looking to manage their digital assets and purchases</p> -->
+                        <ul class="details-info">
+                            <!-- <li>Created - <span>28 Mar 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work-card mix design">
+                    <img src="https://i.postimg.cc/bwny4tH8/oil.png" alt="" class="work-img">
+                    <h3 class="work-title">Oil & Gas</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Oil & Gas</h3>
+                        <!-- <p class="details-description">An app design that is clean and modern, making food browsing and ordering easy</p>
+                        <ul class="details-info">
+                            <li>Created - <span>20 Mar 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li>
+                        </ul> -->
+                    </div>
+                </div>
+
+                <div class="work-card mix design">
+                    <img src="https://i.postimg.cc/tgJC4MFd/manofacture.png" alt="" class="work-img">
+                    <h3 class="work-title">Manofactura</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Manofactura</h3>
+                        <!-- <p class="details-description">An app design that is clean and modern, making food browsing and ordering easy</p>
+                        <ul class="details-info">
+                            <li>Created - <span>20 Mar 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li>
+                        </ul> -->
+                    </div>
+                </div>
+
+                <div class="work-card mix design">
+                    <img src="https://i.postimg.cc/YSnW8P6j/logistic.png" alt="" class="work-img">
+                    <h3 class="work-title">Logística</h3>
+                    <span class="work-button">Perfiles<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Logística</h3>
+                        <!-- <p class="details-description">An app design that is clean and modern, making food browsing and ordering easy</p>
+                        <ul class="details-info">
+                            <li>Created - <span>20 Mar 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com</a></span></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section-title" data-heading="Reclutamiento">🔍 Niveles de Talento que Reclutamos
+            </h2>
+
+            <div class="qualification-container container grid">
+                <div class="education">
+                    <!-- <h3 class="qualification-title"><i class="uil uil-suitcase"></i>Experience</h3> -->
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Alta Dirección</h3>
+                            <!-- <p class="timeline-text">BFA in Graphic Design</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2011 - 2013</span> -->
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Gerencias y Coordinaciones</h3>
+                            <!-- <p class="timeline-text">Diploma in Web Design</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2013 - 2015</span> -->
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Jefaturas y Supervisión</h3>
+                            <!-- <p class="timeline-text">Perfiles Técnicos y Especializados</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2015 - 2017</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <!-- <h3 class="qualification-title"><i class="uil uil-suitcase"></i>Experience</h3> -->
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Administrativos de Alto Nivel</h3>
+                            <!-- <p class="timeline-text">Lead / Senior UX Designer</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2018 - Present</span> -->
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Personal Administrativo de Confianza</h3>
+                            <!-- <p class="timeline-text">Web site / UX Designer</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2015 - 2018</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="portfolio-popup">
+            <div class="portfolio-popup-inner">
+                <div class="portfolio-popup-content grid">
+                    <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
+                    <div class="pp-thumbnail">
+                        <img src="https://i.postimg.cc/sXLjnC5p/work-2.png" alt="" class="portfolio-popup-img">
+                    </div>
+
+                    <div class="portfolio-popup-info">
+                        <div class="portfolio-popup-subtitle">Perfiles - <span></span></div>
+                        <div class="portfolio-popup-body">
+                            <h3 class="details-title">App for Technology & Services</h3>
+                            <p class="details-description">A stylish burger restaurant mobile app interface displayed on two smartphones</p>
+
+                            <ul class="details-info">
+                                <li>Created - <span>15 Apr 2025</span></li>
+                                <li>Technologies - <span>html css</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View - <span><a href="#">www.domain.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="testimonials section">
+            <h2 class="section-title" data-heading="Tiempos">Tiempo de respuesta</h2>
+
+            <div class="testimonials-container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial-card swiper-slide">
+                     
+                        <p class="testimonial-description">
+                            Presentamos candidatos en un plazo de <span class="time-response">7 a 15 días hábiles</span>, según la  <span class="time-response">complejidad del perfil</span> , contados a partir del levantamiento del perfil y la firma de la propuesta de servicios.
+                        </p>
+                        <!-- <h3 class="testimonial-date">March 30, 2025</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/MTr9j4Yn/client1.jpg" alt="" class="testimonial-profile-img">
+
+                            <div class="testimonial-profile-data">
+                                <span class="testimonial-profile-name">Chen Xiuying</span>
+                                <span class="testimonail-profile-detail">Marketing Director</span>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="testimonial-card swiper-slide swiper-hide">
+                       <img src="https://i.postimg.cc/fbK1Cbxj/image-profile.jpg">
+                    </div>
+
+                    <!-- <div class="testimonial-card swiper-slide">
+                        <div class="testimonial-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-description">I was blown away by the website Miriam created for my business! Miriam crafted a incredibly user-friendly, that allows our customers to access information on any device. Since the launch, I've seen a significant increase in inquiries and bookings</p>
+                        <h3 class="testimonial-date">November 29, 2024</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/pdP9DL0S/client3.jpg" alt="" class="testimonial-profile-img">
+
+                            <div class="testimonial-profile-data">
+                                <span class="testimonial-profile-name">Melanie Stone</span>
+                                <span class="testimonail-profile-detail">Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div> -->
+            </div>
+            
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section-title" data-heading="Costos">Inversión</h2>
+            
+            <div class="about-container container grid">
+                    <img src="https://i.postimg.cc/gjWVpCj4/invest.png" alt=""  class="about-img">
+
+                <div class="about-data">
+                    <p class="invest-description">
+                        Inversión de <span class="time-response">1 y 1/2 MES del SUELDO mensual bruto</span> de la posición (12% del sueldo anualizado -12 meses-):<br><br>
+
+                        Cuando sean posiciones Complejas de Cubrir por los múltiples requisitos solicitados por el Cliente, ya que se requiere una mayor inversión de recursos y tiempo para la localización de candidatos en el mercado: <br><br>
+                    </p>
+                    <span>Inversión de <span class="time-response">2 MESES</span> del <span  class="time-response">SUELDO mensual bruto</span> de la posición (16% del sueldo anualizado -12 meses-) <br><br>
+                    <span class="time-response">Ejemplo:</span>
+                    <br>
+                    <ol class="indent">
+                        <li>Posiciones Técnicas con idioma inglés.</li>
+                        <li>Bajo presupuesto del Cliente en el mercado laboral y se necesite hacer una búsqueda exhaustiva para localizar candidatos que se ajusten al sueldo, y condiciones de la empresa, etc.</li>
+                    </ol>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="testimonials section">
+            <h2 class="section-title" data-heading="My clients say">Testimonials</h2>
+
+            <div class="testimonials-container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial-card swiper-slide">
+                        <div class="testimonial-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-description">Working with Miriam was an absolute pleasure from start to finish. They took the time to truly understand our business needs and translated them into a stunning and highly functional website</p>
+                        <h3 class="testimonial-date">March 30, 2025</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/MTr9j4Yn/client1.jpg" alt="" class="testimonial-profile-img">
+
+                            <div class="testimonial-profile-data">
+                                <span class="testimonial-profile-name">Chen Xiuying</span>
+                                <span class="testimonail-profile-detail">Marketing Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card swiper-slide">
+                        <div class="testimonial-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-description">Miriam truly understood our business needs through her modern and sleek design, making a site incredibly user-friendly. With her help, we had a significant increase in engagement and customer sales</p>
+                        <h3 class="testimonial-date">January 18, 2025</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/wvV7f8rB/client2.jpg" alt="" class="testimonial-profile-img">
+
+                            <div class="testimonial-profile-data">
+                                <span class="testimonial-profile-name">Joshua Middletown</span>
+                                <span class="testimonail-profile-detail">Sales Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card swiper-slide">
+                        <div class="testimonial-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial-description">I was blown away by the website Miriam created for my business! Miriam crafted a incredibly user-friendly, that allows our customers to access information on any device. Since the launch, I've seen a significant increase in inquiries and bookings</p>
+                        <h3 class="testimonial-date">November 29, 2024</h3>
+                        <div class="testimonial-profile">
+                            <img src="https://i.postimg.cc/pdP9DL0S/client3.jpg" alt="" class="testimonial-profile-img">
+
+                            <div class="testimonial-profile-data">
+                                <span class="testimonial-profile-name">Melanie Stone</span>
+                                <span class="testimonail-profile-detail">Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section> -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-heading="Contáctame">Hablemos</h2>
+
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="uil uil-envelope-edit contact-card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <span class="contact-card-data">toni.montes@smart-talent.mx</span>
+                            <a href="mailto:toni.montes@smart-talent.mx" class="contact-button">
+                                Conectemos <i class="uil uil-arrow-right contact-button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="uil uil-whatsapp contact-card-icon"></i>
+                            <h3 class="contact-card-title">Whatsapp</h3>
+                            <span class="contact-card-data">55 1949 0272</span>
+                            <a href="https://wa.me/525519490272?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank" class="contact-button">
+                                Conectemos <i class="uil uil-arrow-right contact-button-icon"></i>
+                              </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-content">
+                   <!-- <img src="https://i.postimg.cc/nhZbw2xJ/contact.png"> -->
+                    <img src="https://i.postimg.cc/P5gX1zgD/contact-1.png" class="opacity-bg">
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">Tony Montes</h1>
+                        <span class="footer-subtitle">Owner & Managing Director</span>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#work" class="footer-links">Servicio</a>
+                        </li>
+                        <li>
+                            <a href="#service" class="footer-links">Inversion</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-links">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://www.linkedin.com/in/toni-montes-9913b717/" target="_blank" class="home-social-link">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+<!-- 
+                        <a href="https://www.instagram.com" target="_blank" class="footer-social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.x.com" target="_blank" class="footer-social">
+                            <i class="uil uil-twitter"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <p class="footer-copy">&#169; <a href="https://codepen.io/leonam-silva-de-souza">Smart Solutions</a>. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
