@@ -168,9 +168,11 @@ button { cursor: pointer; }
 /* Main - About */
 
 .about-container { grid-template-columns: repeat(2, 1fr); column-gap: 4rem; align-items: center; }
-.about-img { width: 480px; border-radius: .75rem; justify-self: center; }
+.about-img { width: 340px; border-radius: .75rem; justify-self: center; display:flex}
 .about-heading { font-size: var(--h3-font-size); margin-bottom: var(--mb075); }
 .about-description { text-align: justify; padding-right: 6rem; margin-bottom: var(--mb2); }
+.about-description-t{ text-align: center; margin-top: var(--mb3); font-size: 1.6rem}
+.about-description-m{font-size: 1.1rem}
 .about-info { display: grid; grid-template-columns: repeat(3, 140px); column-gap: .5rem; margin-bottom: var(--mb3); }
 .about-box { text-align: center; border-radius: .25rem; padding: 1rem 1.25rem; background-color: var(--box-color); }
 .about-icon { font-size: 1.5rem; color: var(--skin-color); margin-bottom: var(--mb075); }
